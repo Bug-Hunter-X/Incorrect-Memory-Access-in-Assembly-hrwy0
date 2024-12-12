@@ -1,0 +1,1 @@
+mov eax, [ebx + ecx] ;Corrected instruction; removes the scaling factor, ensures that each increment in ecx accesses the next consecutive memory location.
